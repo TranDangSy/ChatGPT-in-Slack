@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-repo:latest .
+          docker build -t chat-gpt-in-slack:latest
 
   # Deploy Job
   deploy:
